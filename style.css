@@ -47,6 +47,16 @@ p {
 }
 
 
+/*===== DROPDOWN MENU =====*/
+@media (min-width: 992px) {
+  .navbar-nav.order-lg-2 .dropdown-menu {
+    left: auto !important;
+    right: 0;
+  }
+}
+.dropdown-menu {
+  max-width: 300px;
+}
 
 
 /*===== FIXED BACKGROUND IMG =====*/
@@ -59,17 +69,7 @@ p {
   border-top: 1px solid rgb(0, 0, 0);
 }
 
-
-/*-- Emoji Navbar --*/
-
-
-
-/*============= FOOTER =============*/
-
-
-
-/*============= SOCKET =============*/
-
+/*============= MENU =============*/
 
 
 /*============= MEDIA QUERIES =============*/

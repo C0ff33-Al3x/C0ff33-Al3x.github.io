@@ -22,40 +22,69 @@
 
 
 	<!-- Navigation and Top Bar -->
-
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
 		  <a class="navbar-brand mx-auto" href="#">
 			<img src="img/logo.png" width="90" height="50" alt="Logo">
 		  </a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
-		  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-			<ul class="navbar-nav">
+		  <div class="collapse navbar-collapse" id="navbarMenu">
+			<ul class="navbar-nav mr-auto">
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Contribute</a>
+				<!-- Hamburger menu content goes here -->
+			
+				  
+				<!-- Hamburger menu content goes here -->
 			  </li>
+			</ul>
+			<ul class="navbar-nav order-lg-2">
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Sign in</a>
+				<a href="#" class="btn btn-outline-light btn-lg">Contribute</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Sign in
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <a class="dropdown-item" href="index.html">Sign In</a>
+				  <a class="dropdown-item" href="index.html">Create Account</a>
+				  <a class="dropdown-item" href="index.html">Newsletters</a>
+				  <a class="dropdown-item" href="index.html">Custom Alerts</a>
+				  <a class="dropdown-item" href="index.html">Help/FAQ</a>
+				</div>
 			  </li>
 			</ul>
 		  </div>
 		</div>
 	  </nav>
 	  
-	  
-
 	
-
+	  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+		  <ul class="navbar-nav mx-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#top-stories">Top Stories </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#news">News</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Sports</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Life</a>
+			</li>
+		  </ul>
+		</div>
+	</nav>
 	<!-- End Navigation and Top Bar -->
 
 
-	<!-- Main Page Heading -->
-
 
 	<!-- Three Column Section -->
-
+	<section id="top-stories">
 	<div class="container">
 		<div class="row my-5">
 		  <div class="col-md-3 border-right border-secondary">
@@ -81,28 +110,86 @@
 			<div class="border-top border-dark w-90 mx-auto my-3"></div>
 			<p> ANNISTON/GADSDEN REAL-TIME NEWS</p>
 			<h4 class="my-4">Lightning strikes, kills boy’s 2 horses during Alabama storms; GoFundMe launched</h4>
+			<div class="border-top border-dark w-90 mx-auto my-3"></div>
+			<div class="row">
+				<div class="col-6">
+					<p>SPORTS
+						Gardendale's Aiden Bulloch pushes through obstacles to achieve goals
+						Gardendale senior Aiden Bulloch, a Bryant-Jordan regional winner, lost his father at an early age.
+						Cameron Buford, 6h ago</p>
+				</div>
+				<div class="col-6">
+					<img src="img/person.png" alt="" class="w-5">
+				</div>
+			</div>
+			<div class="row">
+				<p> Alabama teen really is playing in the Masters this week
+					Former Alabama prep star’s homer makes MLB history
+					UAB coach Trent Dilfer embraces Hugh Freeze’s spring idea at Auburn: ‘Pretty, please.’ </p>
+			</div>
+
 		  </div>
 		  <div class="col-md-3 border-left border-secondary"></div>
 		</div>
 	  </div>
-	  
+
+	</section>
 	  
 
 	<!-- End Three Column Section -->
 
-
-	<!-- Emoji Navbar First -->
-
-
-	<!-- Start Fixed Background IMG -->
-
-	<!-- End Fixed Background IMG -->
- 
+	<section id="news">
+		<div class="container">
+			<div class="row my-5">
+			  <div class="col-md-3 border-right border-secondary">
+				<h4>News</h4>
+				<img src="img/oldlady.png" alt="" class="w-100">
+				MOBILE REAL-TIME NEWS
+					Scott Jones resignation effective immediately, Mobile City Council says
+					Margaret Kates, 1h ago
+					NEWS
+					3 Florida teens killed in 3 days might have been victims of ‘wannabe gang’
+						Jessica Schladebeck New York Daily News (TNS), 1h ago
+					NEWS
+					Florida man allegedly steals $300K worth of employer’s equipment while wearing ankle monitor
+					Warren Kulo, 4h ago
+			  </div>
+			  <div class="col-md-6 border-left border-right border-secondary">
+				<img src="img/policecar.png" alt="" class="w-100">
+				<h1>Police chase ends with Jefferson County deputy fatally shooting kidnapping suspect in Birmingham</h1>
+				<p> A suspect is dead in a grassy area under the bridge near the Collegeville public housing community.
+					Carol Robinson, 13h ago
+					Clay-Chalkville student ID’d as teen fatally gunned down at Birmingham apartment complex</p>
+				<a href="#" class="btn btn-outline-dark btn-lg">View More Coverage</a>
+				<div class="border-top border-dark w-90 mx-auto my-3"></div>
+				<p> ANNISTON/GADSDEN REAL-TIME NEWS</p>
+				<h4 class="my-4">Lightning strikes, kills boy’s 2 horses during Alabama storms; GoFundMe launched</h4>
+				<div class="border-top border-dark w-90 mx-auto my-3"></div>
+				<div class="row">
+					<div class="col-6">
+						<p>SPORTS
+							Gardendale's Aiden Bulloch pushes through obstacles to achieve goals
+							Gardendale senior Aiden Bulloch, a Bryant-Jordan regional winner, lost his father at an early age.
+							Cameron Buford, 6h ago</p>
+					</div>
+					<div class="col-6">
+						<img src="img/person.png" alt="" class="w-5">
+					</div>
+				</div>
+				<div class="row">
+					<p> Alabama teen really is playing in the Masters this week
+						Former Alabama prep star’s homer makes MLB history
+						UAB coach Trent Dilfer embraces Hugh Freeze’s spring idea at Auburn: ‘Pretty, please.’ </p>
+				</div>
 	
-	<!-- Emoji Navbar Second -->
+			  </div>
+			  <div class="col-md-3 border-left border-secondary"></div>
+			</div>
+		  </div>
+	
+		</section>
 
 
-	<!-- Modal Popup -->
 
 		
 	<!-- Start Two Column Section -->
@@ -110,14 +197,7 @@
 	<!-- End Two Column Section -->
 
 
-	<!-- Start Jumbotron -->
 
-	<!-- End Jumbotron -->
-
-
-	<!-- Start Footer -->
-
-	<!-- End Footer -->
 
 
 	<!-- Start Socket -->
