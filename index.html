@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>HTML5 Website with Bootstrap | Responsive Website Design</title>
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="img/icon.ico">
 	<!-- Bootstrap 4.5 CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Style CSS -->
@@ -22,19 +22,62 @@
 
 
 	<!-- Navigation and Top Bar -->
+
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
 		  <a class="navbar-brand mx-auto" href="#">
 			<img src="img/logo.png" width="90" height="50" alt="Logo">
+			
 		  </a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-			<span class="navbar-toggler-icon"></span>
+		 
 		  </button>
-		  <div class="collapse navbar-collapse" id="navbarMenu">
-			<ul class="navbar-nav mr-auto">
+		  
 			  <li class="nav-item">
 				<!-- Hamburger menu content goes here -->
-			
+				<nav role="navigation">
+					<div id="menuToggle">
+					  <!--
+					  A fake / hidden checkbox is used as click reciever,
+					  so you can use the :checked selector on it.
+					  -->
+					  <input type="checkbox" />
+					  
+					  <!--
+					  Some spans to act as a hamburger.
+					  
+					  They are acting like a real hamburger,
+					  not that McDonalds stuff.
+					  -->
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  
+					  <!--
+					  Too bad the menu has to be inside of the button
+					  but hey, it's pure CSS magic.
+					  -->
+					  <ul id="menu">
+						<a href="index.html"><li>News</li></a>
+						<a href="index.html"><li>Buisness</li></a>
+						<a href="index.html"><li>Opinion</li></a>
+						<a href="index.html"><li>Sports</li></a>
+						<a href="index.html"><li>Sports Betting</li></a>
+						<a href="index.html"><li>Life&Culture</li></a>
+						<a href="index.html"><li>Comics&Puzzles</li></a>
+						<a href="index.html"><li>Obituaries</li></a>
+						<a href="index.html"><li>Submit an Obituary</li></a>
+						<a href="index.html"><li>Jobs</li></a>
+						<a href="index.html"><li>Autos</li></a>
+						<a href="index.html"><li>Real Estate</li></a>
+						<a href="index.html"><li>Classifieds</li></a>
+						<a href="index.html"><li>Public Notices</li></a>
+						<a href="index.html"><li>Email Newsletters</li></a>
+						<a href="index.html"><li>Mobile Apps</li></a>
+
+
+					  </ul>
+					</div>
+				  </nav>
 				  
 				<!-- Hamburger menu content goes here -->
 			  </li>
@@ -45,7 +88,8 @@
 			  </li>
 			  <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				  Sign in
+					<img src="img/login.png" alt="Sign in" width="30">
+					Sign in
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				  <a class="dropdown-item" href="index.html">Sign In</a>
@@ -192,17 +236,23 @@
 
 
 		
-	<!-- Start Two Column Section -->
-
-	<!-- End Two Column Section -->
 
 
 
+		<div class="border-top border-dark w-90 mx-auto my-3"></div>
+		<div class="border-top border-dark w-90 mx-auto my-3"></div>
 
 
-	<!-- Start Socket -->
+	<!-- Start Footer -->
 
-	<!-- End Socket -->
+	
+
+	<div class="footer">
+		<p>Footer</p>
+		
+	</div>
+
+	<!-- End Footer -->
 
 	<div class="container my-5"></div>
 
