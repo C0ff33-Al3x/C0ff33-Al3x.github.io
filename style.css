@@ -128,7 +128,7 @@ h1 {
 
 #menuToggle a:hover
 {
-  color: tomato;
+  text-decoration: underline;
 }
 
 
@@ -247,6 +247,21 @@ h1 {
   transform: none;
 }
 
+/* Nascondi il sottomenu */
+#menu li ul {
+  display: none;
+}
+
+/* Mostra il sottomenu quando passi sopra alla voce del menu */
+#menu li:hover ul {
+  display: block;
+}
+
+
+
+
+
+
 /*============= FOOTER =============*/
 
 .footer {
@@ -288,12 +303,6 @@ h1 {
   opacity:1;
 }
 
-.footer .copyright {
-  margin-top:14px;
-  margin-bottom:0;
-  font-size:13px;
-  opacity:0.6;
-}
 
 
 

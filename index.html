@@ -31,33 +31,42 @@
 		  </a>
 		 
 		  </button>
-		  
 			  <li class="nav-item">
 				<!-- Hamburger menu content goes here -->
 				<nav role="navigation">
 					<div id="menuToggle">
-					  <!--
-					  A fake / hidden checkbox is used as click reciever,
-					  so you can use the :checked selector on it.
-					  -->
 					  <input type="checkbox" />
-					  
-					  <!--
-					  Some spans to act as a hamburger.
-					  
-					  They are acting like a real hamburger,
-					  not that McDonalds stuff.
-					  -->
 					  <span></span>
 					  <span></span>
 					  <span></span>
-					  
-					  <!--
-					  Too bad the menu has to be inside of the button
-					  but hey, it's pure CSS magic.
-					  -->
 					  <ul id="menu">
-						<a href="index.html"><li>News</li></a>
+						<li>
+							<a href="index.html">Alabama</a>
+							<ul>
+							  <li><a href="index.html">Birmingham</a></li>
+							  <li><a href="index.html">Huntsville</a></li>
+							  <li><a href="index.html">Mobile</a></li>
+							  <li><a href="index.html">Montgomery</a></li>
+							  <li><a href="index.html">Tuscaloosa</a></li>
+							  <li><a href="index.html">Anniston/Gadsden</a></li>
+							  <li><a href="index.html">Beaches</a></li>
+							  <li><a href="index.html">Alabama</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="index.html">News</a>
+							<ul>
+							  <li><a href="index.html">Birmingham Real-Time News</a></li>
+							  <li><a href="index.html">Huntsville Real-Time News</a></li>
+							  <li><a href="index.html">Mobile Real-Time News</a></li>
+							  <li><a href="index.html">Coronavirus</a></li>
+							  <li><a href="index.html">Crime</a></li>
+							  <li><a href="index.html">Coronavirus</a></li>
+							  <li><a href="index.html">Education Lab</a></li>
+							  <li><a href="index.html">Politics</a></li>
+							  <li><a href="index.html">Religion</a></li>
+							</ul>
+						</li>
 						<a href="index.html"><li>Buisness</li></a>
 						<a href="index.html"><li>Opinion</li></a>
 						<a href="index.html"><li>Sports</li></a>
@@ -73,8 +82,6 @@
 						<a href="index.html"><li>Public Notices</li></a>
 						<a href="index.html"><li>Email Newsletters</li></a>
 						<a href="index.html"><li>Mobile Apps</li></a>
-
-
 					  </ul>
 					</div>
 				  </nav>
@@ -84,7 +91,7 @@
 			</ul>
 			<ul class="navbar-nav order-lg-2">
 			  <li class="nav-item">
-				<a href="#" class="btn btn-outline-light btn-lg">Contribute</a>
+				<a href="https://www.al.com/contributor/" class="btn btn-outline-light btn-lg">Contribute</a>
 			  </li>
 			  <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -115,14 +122,15 @@
 			  <a class="nav-link" href="#news">News</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link" href="#">Sports</a>
+			  <a class="nav-link" href="#sports">Sports</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link" href="#">Life</a>
+			  <a class="nav-link" href="#life">Life</a>
 			</li>
 		  </ul>
 		</div>
 	</nav>
+
 	<!-- End Navigation and Top Bar -->
 
 
@@ -150,14 +158,14 @@
 	<!-- Middle Column -->
 		<div class="col-md-6 text-center border-left border-right">
 			<img src="img/america.png" alt="" class="w-100">
-			<p></p>
+			<br>
 			<p class="gray">NEWS</p>
-			<p></p>
+			<br>
 			<h1>Jefferson County sued over alleged racial gerrymandering, vote packing</h1>
 			<p class="black"> Plaintiffs claim the county commissioner’s office intentionally pack Black voters into two minority districts, limiting their political power.</p>
-			<p></p>
+			<br>
 			<p class="gray">Sarah Swetlik, 11h ago</p>
-			<p></p>
+			<br>
 			<a href="#" class="btn btn-outline-dark btn-lg">View More Coverage</a>
 			<div class="border-top border-dark w-100 mx-auto my-3"></div>
 			
@@ -232,7 +240,7 @@
 		  	
 		
 			<!-- Rightmost Column-->
-		<div class="col-md-3 border-left border-secondary"></div>
+		<div class="col-md-3"></div>
 
 		</div>
 	</div>
@@ -269,17 +277,16 @@
 		<!-- Middle Column -->
 			<div class="col-md-6 text-center border-left border-right">
 				<img src="img/snow.png" alt="" class="w-100">
-				<p></p>
+				<br>
 				<p class="gray">MOBILE REAL-TIME NEWS</p>
-				<p></p>
+				<br>
 				<h1>13-year-old boy drowns in Gulf off Destin; several minors rescued</h1>
 				<p class="black"> The victim was a tourist from Kentucky. His body was found in Gulf waters by deputies with the Okaloosa County Sheriff's Office's Marine Unit.</p>
-				<p></p>
+				<br>
 				<p class="gray">Howard Koplowitz, 8h ago</p>
-				<p></p>
 				<br><br><br><br>
 				<img src="img/night.png" alt="" class="w-100">
-				<p></p>
+				<br>
 				<p class="gray">NEWS</p>
 				<br><br>
 				<h1>Missing Florida girls turn themselves in to Bayou La Batre police</h1>
@@ -294,7 +301,7 @@
 			
 			
 				<!-- Rightmost Column-->
-			<div class="col-md-3 border-left border-secondary">
+			<div class="col-md-3">
 				<br><br><br><br><br><br><br><br><br><br>
 				<img src="img/oldlady.png" alt="" class="w-100">
 				<p class="gray">MOBILE REAL-TIME NEWS</p>
@@ -319,32 +326,176 @@
 
 
 
+	<!-- Three Column Section -->
+	<section id="sports">
+
+		<div class="container">
+			<div class="row my-5">
+	
+		<!-- Leftmost Column -->
+			<div class="col-md-3">
+				<h1>Sports</h1>
+				<img src="img/rugby1.png" alt="" class="w-100">
+				<p class="gray">SPORTS</p>
+				<h1>Jameson Williams wants Alabama number back in NFL</h1>
+				<p class="gray">Mark Inabinett, 16h ago</p>
+				<br><br>
+				<p class="gray">SPORTS</p>
+				<h1>Hall of Famer Danny Powell returning to private school as head coach</h1>
+				<p class="gray">Ben Thomas, 13h ago</p>
+				<br><br>
+				<p class="gray">ALABAMA BASKETBALL</p>
+				<h1>Transfer guard includes Tide among finalists; 5-star target transfers into Big Ten</h1>
+				<p class="gray">Nick Alvarez, 19h ago</p>
+				
+
+			</div>
+	
+		<!-- Middle Column -->
+			<div class="col-md-6 text-center border-left border-right">
+				<img src="img/rugby2.png" alt="" class="w-100">
+				<p></p>
+				<p class="gray">ALABAMA FOOTBALL</p>
+				<p></p>
+				<h1>After ‘growing experience,’ former Alabama starter has another shot in new-look secondary</h1>
+				<p></p>
+				<p class="gray">Mike Rodak, 18h ago</p>
+				<br><br><br><br>
+				<img src="img/rugby3.png" alt="" class="w-100">
+				<br><br>
+				<p class="gray">AUBURN FOOTBALL</p>
+				<h1>Road to the Pros: Derick Hall's unlikely path to becoming pride of Gulfport</h1>
+				<p class="gray">Tom Green, 22h ago</p>
+				<br><br>
+				<p class="gray">SPORTS</p>
+				<h1>NFL Draft: The SEC’s No. 1 No. 17</h1>
+				<p class="gray">Mark Inabinett</p>
+				<br><br>
+			</div>	
+				
+			
+				<!-- Rightmost Column-->
+			<div class="col-md-3">
+				<br><br><br><br><br><br><br><br><br><br>
+				<img src="img/champion.png" alt="" class="w-100">
+				<p class="gray">SPORTS</p>
+				<h1>Fans send prayers for legendary NASCAR driver who is ‘not doing well’</h1>
+				<p class="gray">Leada Gore, 19h ago</p>
+				<br><br>
+				<p class="gray">SPORTS</p>
+				<h1>NASCAR driver arrested, suspended, charged with assault</h1>
+				<p class="gray">Leada Gore, 21h ago</p>
+				<br><br>
+				<p class="gray">AUBURN FOOTBALL</p>
+				<h1>What we learned about each position on Auburn’s offense this spring</h1>
+				<p class="gray">Tom Green, 19h ago</p>
+			</div>
+			
+			
+		</div>
+	
+	</section>
 
 
 
 
+	<!-- Three Column Section -->
+	<section id="life">
 
+		<div class="container">
+			<div class="row my-5">
+	
+		<!-- Leftmost Column -->
+			<div class="col-md-3">
+				<h1>Life</h1>
+				<img src="img/guitar.png" alt="" class="w-100">
+				<p class="gray">ALABAMA LIFE & CULTURE</p>
+				<h1>June Jam 2023 lineup announced for Alabama’s country concert’s return</h1>
+				<p class="gray">Matt Wake, 21h ago</p>
+				<br><br>
+				<p class="gray">ALABAMA LIFE & CULTURE</p>
+				<h1>Millie Bobby Brown engaged to Jon Bon Jovi’s son Jake Bongiovi</h1>
+				<p class="gray">Geoff Herbert, 23h ago</p>
+				<br><br>
+				<p class="gray">ALABAMA LIFE & CULTURE</p>
+				<h1>5 acts you need to see at Hangout Fest 2023</h1>
+				<p class="gray">Tandra Smith, 20h ago</p>
+				<br><br><br><br><br><br><br><br>
+				<img src="img/cake.png" alt="" class="w-100">
+				<p class="gray">ALABAMA LIFE & CULTURE</p>
+				<h1>6 more Montgomery dishes to add to your Alabama bucket list</h1>
+				<p class="gray">Bob Carlton, 23h ago</p>
+				<br><br>
+				<p class="gray">ALABAMA LIFE & CULTURE</p>
+				<h1>Dear Annie: I’m feeling guilty about considering leaving my job for another company</h1>
+				<p class="gray">Annie Lane</p>
+				<br><br>
+				<p class="gray">LIFE & CULTURE</p>
+				<h1>Our Place announces release of its brand new Always Pan 2.0</h1>
+				<p class="gray">Josie Howell, 15h ago</p>
+			</div>
+	
+		<!-- Middle Column -->
+			<div class="col-md-6 text-center border-left border-right">
+				<img src="img/supermarket.png" alt="" class="w-100">
+				<br><br>
+				<p class="gray">NEWS</p>
+				<h1>How ‘Disney World of gas stations’ in Buc-ee’s first came to Alabama</h1>
+				<p class="black"> The fourth Buc-ee's travel station in Alabama will open Monday in Auburn. By now, most Alabamians are familiar with the massive travel stations. But ...</p>
+				<p class="gray">John Sharp</p>
+				<br><br><br><br>
+				<img src="img/Abby.png" alt="" class="w-100">
+				<br><br>
+				<p class="gray">ALABAMA LIFE & CULTURE</p>
+				<h1>How ‘Disney World of gas stations’ in Buc-ee’s first came to Alabama</h1>
+				<p class="black"> Dear Abby: Woman’s abusive parents expect her to care for them in their old age</p>
+				<p class="gray">Abigail Van Buren, 4h ago</p>
+				<br><br><br>
+				<p class="gray">ALABAMA LIFE & CULTURE</p>
+				<h1>Alabama singer cuts a deal with Katy Perry as she makes ‘Idol’ top 26</h1>
+				<p class="gray">Mary Colurso, 17h ago</p>
+				<br><br><br><br><br><br>
+				<img src="img/restaurant.png" alt="" class="w-100">
+				<br><br>
+				<p class="gray">LIFE & CULTURE</p>
+				<h1>‘The Wall’ season 5 premiere: How to watch and where to stream</h1>
+				<p class="gray">Josie Howell, 15h ago</p>
+			</div>
+			
+		<!-- Rightmost Column-->
+			<div class="col-md-3">
+				<br><br><br><br><br><br><br><br><br><br><br><br>
+				<img src="img/oldguy1.png" alt="" class="w-100">
+				<p class="gray">LIFE & CULTURE</p>
+				<h1>‘The Curse of Oak Island’ season 10 episode 20: How to watch and where to stream</h1>
+				<p class="gray">Josie Howell</p>
+				<br><br>
+				<p class="gray">ALABAMA LIFE & CULTURE</p>
+				<h1>Dear Abby: My mother-in-law’s gambling habits, loan requests are stressing me out</h1>
+				<p class="gray">Abigail Van Buren</p>
+				<br><br>
+				<img src="img/oldguy2.png" alt="" class="w-100">
+				<p class="gray">ALABAMA LIFE & CULTURE</p>
+				<h1>Mad magazine cartoonist Al Jaffee dead at 102</h1>
+				<p class="gray">The Associated Press</p>
+				<br><br>
+				<p class="gray">ALABAMA LIFE & CULTURE</p>
+				<h1>Billionaire says these are his favorite places to eat in Alabama</h1>
+				<p class="gray">Ben Flanagan</p>
+			</div>
+		</div>
+	</div>
+	
+	</section>
 
+	<!-- End Main Content -->
 
-
-
-
-
-
-
-
-
-
-
-
-		<div class="border-top border-gray w-90 mx-auto my-3"></div>
-		<br><br>
-		<div class="border-top border-gray w-90 mx-auto my-3"></div>
+	<div class="border-top border-gray w-90 mx-auto my-3"></div>
+	<br><br>
+	<div class="border-top border-gray w-90 mx-auto my-3"></div>
 
 
 	<!-- Start Footer -->
-
-	
 
 	<div class="footer">
         <footer>
@@ -360,8 +511,8 @@
                             <li><a href="#">Advertise with us</a></li>
 							<li><a href="#">About AL.com</a></li>
 							<li><a href="#">Frequently Asked Questions</a></li>
-							<li><a href="#"></a>Contact us</li>
-							<li><a href="#"></a>Online store</li>
+							<li><a href="#">Contact us</a></li>
+							<li><a href="#">Online store</a></li>
                         </ul>
 						<br><br><br><br>
 						<h3>Subscriptions</h3>
@@ -374,39 +525,103 @@
                         </ul>
                     </div>
                     <div class="col-sm-2 col-md-2 item">
-                        <h3>About</h3>
+                        <h3>Already a subscriber</h3>
                         <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Legacy</a></li>
+                            <li><a href="#">Manage your subscription</a></li>
+                            <li><a href="#">Place a Vacation Hold</a></li>
+                            <li><a href="#">Make a Payment</a></li>
+							<li><a href="#">Delivery Feedback</a></li>
                         </ul>
                     </div>
 					<div class="col-sm-2 col-md-2 item">
-                        <h3>About</h3>
+                        <h3>AL.com Sections</h3>
                         <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Legacy</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Sports</a></li>
+							<li><a href="#">High School Sports</a></li>
+							<li><a href="#">Alabama Life & Culture</a></li>
+							<li><a href="#">Opinion</a></li>
+							<li><a href="#">Archives</a></li>
+							<li><a href="#">Obituaries</a></li>
+							<li><a href="#">Jobs</a></li>
+							<li><a href="#">Autos</a></li>
+							<li><a href="#">Real Estate</a></li>
+							<li><a href="#">Rentals</a></li>
+							<li><a href="#">Classifieds</a></li>
                         </ul>
                     </div>
 					<div class="col-sm-2 col-md-2 item">
-                        <h3>About</h3>
+                        <h3>Your Regional News Pages</h3>
                         <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Legacy</a></li>
+                            <li><a href="#">Anniston/Gadsden</a></li>
+                            <li><a href="#">Birmingham</a></li>
+                            <li><a href="#">Huntsville</a></li>
+							<li><a href="#">Mobile</a></li>
+							<li><a href="#">Montgomery</a></li>
+							<li><a href="#">Tuscaloosa</a></li>
+							<li><a href="#">Gulf Coast Beaches</a></li>
+                        </ul>
+						<br><br><br><br>
+						<h3>On the Go</h3>
+                        <ul>
+                            <li><a href="#">Mobile Apps</a></li>
+                            <li><a href="#">Tablet Apps</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-2 col-md-2 item">
-                        <h3>Careers</h3>
+                        <h3>Follow Us</h3>
                         <ul>
-                            <li><a href="#">Job openings</a></li>
-                            <li><a href="#">Employee success</a></li>
-                            <li><a href="#">Benefits</a></li>
+                            <li><a href="#">Pinterest</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">RSS</a></li>
+                        </ul>
+						<br><br>
+						<h3>Customer Service</h3>
+                        <ul>
+							<li><a href="#">Send us an email</a></li>
+                            <li><a href="#">Submit a news tip</a></li>
+                            <li><a href="#">Buy newspaper front pages, posters and more</a></li>
+                        </ul>
+						<br><br>
+						<h3>More on AL.com</h3>
+                        <ul>
+							<li><a href="#">Videos</a></li>
+                            <li><a href="#">Weather</a></li>
+                            <li><a href="#">Site Map & search</a></li>
+							<li><a href="#">Sponsor Content</a></li>
+							<li><a href="#">Post a job</a></li>    
                         </ul>
                     </div>
                 </div>
-            </div>
+
+			<div class="border-top border-gray w-70 mx-auto my-3"></div>
+			<div class="row justify-content-center">
+				<div class="col-sm-8">
+					<a href="https://www.advancelocal.com"><img src="img/AdvanceLocal.png"></a>
+					<br><br>
+					<ul>
+						<p> Use of and/or registration on any portion of this site constitutes acceptance of our <u>User Agreement</u> (updated 4/4/2023), 
+							<u>Privacy Policy and Cookie Statement</u>, and <u>Your Privacy Choices and Rights</u> (each updated 1/26/2023).</p>
+						<br>
+						<a href="#" class="btn btn-outline-dark btn-md">Cookies Settings</a>
+						<br><br>
+						<p> © 2023 Advance Local Media LLC. All rights reserved (<u>About Us</u>).</p>
+						<p>The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Advance Local.</p>
+						<p><u>Community Rules</u> apply to all content you upload or otherwise submit to this site.</p>
+						<p>YouTube’s privacy policy is available <u>here</u> and YouTube’s terms of service is available <u>here</u>.</p>
+						<p><u>Ad Choices</u></p>
+					</ul>
+
+				</div>
+			</div>
+
+
+			
+            
+			</div>	
         </footer>
     </div>
 
